@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deependra's Studies</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f2f6ff;
+  color:#172554;
+}
+header{
+  background:#1646a0;
+  color:white;
+  padding:28px 18px;
+  text-align:center;
+}
+header h1{margin:0;font-size:27px}
+header p{margin-bottom:0}
+main{padding:18px;max-width:750px;margin:auto}
+h2{color:#1646a0}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:13px;
+}
+.card{
+  background:white;
+  padding:20px 12px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 3px 12px #00000012;
+}
+.card span{font-size:30px}
+.card h3{font-size:16px}
+a{color:inherit;text-decoration:none}
+footer{text-align:center;padding:25px;color:#64748b}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎓 Deependra's Studies</h1>
+  <p>Learn • Practice • Achieve</p>
+</header>
+
+<main>
+  <h2>Welcome Students! 👋</h2>
+  <p>Your learning journey starts here.</p>
+
+  <h2>Study Subjects</h2>
+  <div class="cards">
+    <a href="#math"><div class="card">
+      <span>📐</span><h3>Mathematics</h3>
+    </div></a>
+    <a href="#science"><div class="card">
+      <span>🔬</span><h3>Science</h3>
+    </div></a>
+    <a href="#english"><div class="card">
+      <span>📖</span><h3>English</h3>
+    </div></a>
+    <a href="#hindi"><div class="card">
+      <span>✍️</span><h3>Hindi</h3>
+    </div></a>
+    <a href="#social"><div class="card">
+      <span>🌍</span><h3>Social Science</h3>
+    </div></a>
+    <a href="#quiz"><div class="card">
+      <span>📝</span><h3>Online Quiz</h3>
+    </div></a>
+  </div>
+
+  <h2 id="math">Mathematics</h2>
+  <p>Coming Soon!</p>
+  <h2 id="science">Science</h2>
+  <p>Coming Soon!</p>
+  <h2 id="english">English</h2>
+  <p>Coming Soon!</p>
+  <h2 id="hindi">Hindi</h2>
+  <p>Coming Soon!</p>
+  <h2 id="social">Social Science</h2>
+  <p>Coming Soon!</p>
+  <h2 id="quiz">Online Quiz</h2>
+  <p>Coming Soon!</p>
+</main>
+
+<footer>
+  © 2026 Deependra's Studies
+</footer>
+</body>
+</html>
